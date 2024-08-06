@@ -1,0 +1,10 @@
+  spring:
+    application:
+      name: Test_JPA_Generate_Auto
+    datasource:
+      url:  jdbc:postgresql://localhost:5432/jpa
+      password: 1111@2222@
+      username: postgres
+    jpa:
+      hibernate:
+        ddl-auto: update
